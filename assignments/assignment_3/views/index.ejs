@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Express App</title>
+    </head>
+    <body>
+        <% users.forEach(user =>{%>
+            <div>
+                <ul>
+                    <li> Name : <%= user.name %></li>
+                    <li> Email : <%= user.email %></li>
+                </ul>
+            </div>
+            
+        <%})%>
+        <div>
+            <form method="POST" action="/add">
+            <button type="submit">Add</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
