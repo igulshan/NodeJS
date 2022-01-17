@@ -1,0 +1,24 @@
+body{
+    background-color: #eee;
+}
+.user{
+    background-color: yellow;
+}
+
+.usertrue{
+    background-color:green;
+}
+
+.userfalse{
+    background-color:red;
+}
+
+.add{
+    margin-top: 1rem;
+    background-color: violet;
+}
+
+.edit{
+    display: inline-block;
+    background-color: violet;
+}
